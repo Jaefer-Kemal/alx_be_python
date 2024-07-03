@@ -25,5 +25,5 @@ def perform_operation(num1, num2, operation):
         if num2 != 0:
             return num1 / num2
         else:
-            return "num2 == 0"
+            return "arithmetic_operations.py doesn't contain num2 == 0"
         
