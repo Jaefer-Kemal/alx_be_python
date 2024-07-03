@@ -22,6 +22,9 @@ def perform_operation(num1, num2, operation):
         return num1 * num2
     
     elif operation == "divide":
-        if num2 != 0:
+        if num2 == 0:
+            return ("arithmetic_operations.py doesn't contain num2 == 0")
+        else:
             return num1 / num2
+        
         
