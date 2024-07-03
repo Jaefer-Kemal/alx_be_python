@@ -1,8 +1,8 @@
 
 import datetime
 def display_current_datetime():
-    current_date = str(datetime.datetime.now())
-    
+    current_date = datetime.datetime.now()
+    current_date = str(current_date)
     for i,v in enumerate(current_date):
         if v ==".":
             index = i
