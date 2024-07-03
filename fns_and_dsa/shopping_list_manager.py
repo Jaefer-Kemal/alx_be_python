@@ -16,7 +16,7 @@ def main():
             shopping_list.append(add)
             pass
         elif choice == '2':
-            remove = input().strip()
+            shopping_list.remove(input())
             pass
         elif choice == '3':
             print(display_menu())
