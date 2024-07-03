@@ -9,8 +9,8 @@ def main():
     result = perform_operation(num1, num2, operation)
     if num2 == 0:
         print("arithmetic_operations.py doesn't contain num2 == 0")
-        
-    print(f"Result: {result}")
+    else:
+        print(f"Result: {result}")
 
 if __name__ == "__main__":
     main()
